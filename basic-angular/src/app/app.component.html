@@ -1,0 +1,12 @@
+<div class="container">
+  <div class="holder">
+    <div class="main-button">
+      <button (click)="increase()" [ngStyle]="{height: size + 'px', width: size + 'px'}" >{{ countNumber }}</button>
+    </div>
+    <div class="controls">
+      <button (click)="sizeReduction()">Size reduction</button>
+      <button (click)="refresh()">Reset</button>
+      <button (click)="sizeIncrease()">Size increase</button>
+    </div>
+  </div>
+</div>
